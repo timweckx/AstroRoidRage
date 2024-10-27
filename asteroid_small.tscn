@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://so7iepselqg1"]
 
-[ext_resource type="Script" path="res://Asteroid.gd" id="1_mdp5v"]
+[ext_resource type="Script" path="res://Asteroid.cs" id="1_idnpb"]
 [ext_resource type="Texture2D" uid="uid://dx014vjhhehp0" path="res://Graphics/meteorGrey_small2.png" id="2_pso4o"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_miys1"]
@@ -10,7 +10,7 @@ radius = 21.0
 inertia = 500.0
 can_sleep = false
 angular_damp_mode = 1
-script = ExtResource("1_mdp5v")
+script = ExtResource("1_idnpb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 modulate = Color(0.894118, 0.658824, 0.419608, 1)
@@ -21,4 +21,4 @@ texture = ExtResource("2_pso4o")
 visible = false
 shape = SubResource("CircleShape2D_miys1")
 
-[connection signal="was_shoot" from="." to="." method="_on_was_shoot"]
+[connection signal="WasShoot" from="." to="." method="OnWasShoot"]

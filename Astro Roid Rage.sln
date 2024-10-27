@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astro Roid Rage", "Astro Roid Rage.csproj", "{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{BDB3C7DC-2857-4DCA-BC16-1F27B868F822}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

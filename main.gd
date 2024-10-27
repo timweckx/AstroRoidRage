@@ -105,5 +105,3 @@ func spawn_asteroid():
 
 func add_to_score( n ):
 	score += n
-
-
